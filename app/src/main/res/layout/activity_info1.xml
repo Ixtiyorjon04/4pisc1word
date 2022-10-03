@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:orientation="vertical"
+    tools:context=".info1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/chqish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+
+            android:background="@drawable/bt_strelka"
+            android:layout_weight="1.7"
+            android:clickable="true"
+            android:padding="8dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+
+            android:padding="2dp"
+            android:gravity="center"
+            android:layout_marginEnd="55dp"
+            android:text="About "
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+
+            android:justificationMode="inter_word"
+            android:padding="30dp"
+            android:text="               About the program : \nIn this program you have to find out what the 4 pictures mean..\n\n                       Developed  by: \nMy name is Ixtiyorjon.I am 18 years old.I created this app while I was studying at GITA programming  academy.  "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+
+
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text="Contact: \n  ixtiyorjonisacoff@gmail.com  "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</LinearLayout>
+
+

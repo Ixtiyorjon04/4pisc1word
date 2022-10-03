@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+
+    <style name="ButtonAnswer">
+
+    <item name="android:layout_width">45dp</item>
+
+    <item name="android:layout_height">45dp</item>
+
+    <item name="android:textSize">20sp</item>
+
+    <item name="android:background">@drawable/bg_btn_answer</item>
+<item name="android:layout_margin">2dp</item>
+    <item name="android:textColor">#fff</item>
+
+    <item name="android:shadowColor">#9C27B0</item>
+
+    <item name="android:shadowRadius">5</item>
+
+</style>
+
+
+    <style name="ButtonVariant">
+<item name="android:layout_marginEnd">2dp</item>
+    <item name="android:layout_width">47dp</item>
+<item name="android:layout_marginBottom">5dp</item>
+    <item name="android:layout_height">45dp</item>
+
+    <item name="android:textSize">20sp</item>
+
+    <item name="android:background">@drawable/bg_btn_variant</item>
+
+    <item name="android:textColor">#fff</item>
+
+    <item name="android:shadowColor">#9C27B0</item>
+
+    <item name="android:shadowRadius">5</item>
+
+</style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/rounded_corner</item>
+    </style>
+</resources>
